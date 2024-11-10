@@ -1,0 +1,9 @@
+.todo-list {
+    margin-top: 20px;
+}
+
+.deleteAll {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}

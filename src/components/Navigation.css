@@ -1,0 +1,17 @@
+/* Navigation.css */
+
+.tabs {
+  display: flex;
+  gap: 60px;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.tabs a.active {
+  font-weight: bold;
+  border-bottom: 2px solid blue; 
+}

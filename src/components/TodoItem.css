@@ -1,0 +1,23 @@
+/* TodoItem.css */
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin: 5px 0;
+    gap: 8px; 
+}
+  
+.todo-item span {
+    flex: start;
+    margin-left: 8px;
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+}
+
+/* Checkbox styling */
+.todo-item input[type="checkbox"] {
+    accent-color: blue; 
+}
